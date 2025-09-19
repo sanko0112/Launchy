@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/RPmEQt7.png)
+![Logo](https://i.imgur.com/6l9BcB3.png)
 
 
 ### ESP32 ESP-NOW Based model rocket launch controller
@@ -86,15 +86,15 @@ hardware integrates Li-Ion charging (TP4056), a 3.3 V LDO regulator (AP2112K), a
 ## 📷Images
 
 ### Transmitter
-![Transmitter](Pictures\Transmitter.jpg)
-![Transmitter-open](Pictures\Transmitter-open.jpg)
+![Transmitter](Pictures/Transmitter.jpg)
+![Transmitter-open](Pictures/Transmitter-open.jpg)
 
 ### Igniter
-![Igniter](Pictures\Igniter.jpg)
-![Igniter-open](Pictures\Igniter-open.jpg)
+![Igniter](Pictures/Igniter.jpg)
+![Igniter-open](Pictures/Igniter-open.jpg)
 
 ### Accessories
-![Accessories](Pictures\accessories.jpg)
+![Accessories](Pictures/accessories.jpg)
 
 ## 🎥Demo
 

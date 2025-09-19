@@ -80,7 +80,7 @@ hardware integrates Li-Ion charging (TP4056), a 3.3 V LDO regulator (AP2112K), a
 - Continuity test ensures igniter is properly connected before launch, if fails the system enters failsafe, requires full restart
 ## ✏️Schematic
 
-![Schematic](Pictures/schematic.svg)
+![Schematic](Pictures/Schematic.svg)
 
 
 ## 📷Images

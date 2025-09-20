@@ -21,7 +21,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The system is based on a custom PCB designed in KiCad, built around the ESP32-C3-MINI-1 module. Both the transmitter and the igniter/receiver use the same board design, but are populated with different component sets depending on their role. The
 hardware integrates Li-Ion charging (TP4056), a 3.3 V LDO regulator (AP2112K), a MOSFET-driven relay interface, iButton authentication, and status LEDs. USB-C is provided for charging and programming, while screw terminals allow safe connection of the igniter circuit.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complete manufacturing files are available as a ZIP inside the GERBER folder as well as the BoM. I'm working on commiting the KiCad component libraries so the .prj file is fully editable. (Soon™)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Complete manufacturing files are available as a ZIP inside the GERBER folder as well as the BoM. Symbol and footprint libraries are uploaded so the project should be fully editable in KiCad now.
 
 ## 💻Firmware
 ### Transmitter.ino
@@ -64,15 +64,18 @@ hardware integrates Li-Ion charging (TP4056), a 3.3 V LDO regulator (AP2112K), a
 - OneWire (for iButton reader)
 - U8g2lib (for OLED display)
 ## 🚀 Setup & Upload
-1. Clone repo and open in Arduino IDE or PlatformIO.
+1. Clone repo and open in Arduino IDE.
 2. Select ESP32 Dev Module (or your ESP32 board).
 3. Upload separately:
-    - Transmitter_experimental.c → Remote unit
-    - 2.Receiver_experimental.c → Receiver unit
+    - Transmitter.ino → Remote unit
+    - 2.Receiver.ino → Receiver unit
 4. Use GetMacAddress.ino on each ESP32 to note their MAC addresses.
     - Update broadcastAddress[] in transmitter/receiver code accordingly.
 5. Use Read_fob.ino to read your iButton ID.
     - Replace in allowedID[] array in the transmitter code.
+## 📺 Display demo
+![Display](CODE/LaunchDisplayLibrary/test/LaunchDisplayLibrary-demo.gif)
+
 ## 🔒 Safety
 
 - Relay will not activate without valid iButton authentication.

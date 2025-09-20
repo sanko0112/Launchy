@@ -45,6 +45,12 @@ void draw_countdown_menu(void);
 void draw_preheat_start_menu(void);
 void draw_preheat_duration_menu(void);
 void draw_ignition_delta_menu(void);
+void draw_continuity_check_start(void);
+void draw_continuity_check_success(void);
+void draw_continuity_check_failed(void);
+void draw_batt_s(void);
+void draw_batt_ss(void);
+
 #ifdef __cplusplus
 }
 #endif

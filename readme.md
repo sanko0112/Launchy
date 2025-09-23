@@ -1,5 +1,5 @@
 
-![Logo](https://i.imgur.com/6l9BcB3.png)
+![Logo](Pictures/launchy_logo.png)
 
 
 ### ESP32 ESP-NOW Based model rocket launch controller

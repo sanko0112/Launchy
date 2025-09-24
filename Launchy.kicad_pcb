@@ -2125,7 +2125,7 @@
 			(uuid "dda63d3a-ffe4-4131-9e37-22ace2d4300b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/lcsal/Downloads/TP4056/TP4056.step"
+		(model "C:/Users/lsank/Documents/SamacSys_PCB_Library/KiCad/3D_Models/CH224K.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2133,7 +2133,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3417,6 +3417,17 @@
 			(uuid "95df68a5-2e76-4aca-89d5-819b8b3d5a33")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/lsank/Documents/SamacSys_PCB_Library/KiCad/3D_Models/SRD-03VDC-SL-C.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Library:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
@@ -7043,6 +7054,17 @@
 			(uuid "1c0a2631-fd9d-4164-b54a-7fcfb50f090b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/lsank/Documents/SamacSys_PCB_Library/KiCad/3D_Models/ESP32-C3-MINI-1-N4.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Library:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")

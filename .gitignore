@@ -52,3 +52,6 @@ Launchy-backups/
 # Ignore Videos folder
 Videos/
 desktop.ini
+
+# Ignore pdf schematics
+*.pdf
